@@ -1,0 +1,19 @@
+.clipWrapper button {
+  display: block !important;
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400; }
+
+.clipWrapper button:hover {
+  color: white; }
+
+.CodeWrapper {
+  width: 400px;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-right: 20px;
+  margin-bottom: 10px; }
+
+.CodeBlock {
+  padding: 10px !important;
+  border-radius: 5px; }

@@ -1,0 +1,26 @@
+@import 'style-extra/variables.scss';
+
+.Quote {
+    color: $black;
+    padding: 40px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.Quote::before {
+    content: "“";
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 60px;
+    line-height: 1;
+    color: $lightBlue;
+}
+.Quote::after {
+    content: "”";
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 60px;
+    line-height: 0;
+    color: $lightBlue;
+}

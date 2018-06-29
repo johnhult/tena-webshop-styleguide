@@ -1,0 +1,35 @@
+@import 'style-extra/variables.scss';
+
+nav {
+    width: 100%;
+    align-self: flex-start;
+    color: $black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(black, 0.3);
+    margin: 0 10px $bigMargin;
+    @media screen and (min-width: 800px) {
+        flex: 1 1 0px;
+        // width: 200px;
+        max-width: 300px;
+    }
+    // @media screen and (min-width: 1200px) {
+    //     width: 200px;
+    //     margin: 0 20px 0 0;
+    // }
+}
+.Navigation {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    &:not(.ActiveNavigation):hover {
+        background-color: $lightBlue;
+    }
+    &:not(:last-child) {
+        border-bottom: 1px solid $lightGrey;
+    }
+}
+.ActiveNavigation {
+    color: white;
+    background-color: $blue;
+}

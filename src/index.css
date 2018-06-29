@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: left;
+  color: #373737;
+  background-color: white; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Helvetica Neue', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: 1.6; }
+
+ul {
+  list-style: none; }
+
+main,
+li {
+  display: block; }
+
+strong {
+  font-weight: bold; }
+
+a,
+button {
+  color: inherit;
+  transition: .2s;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+button {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer; }
+
+::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+:focus {
+  outline: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0; }
+
+* {
+  box-sizing: border-box; }
+
+h1 {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 50px; }
+
+h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 38px; }
+
+h3 {
+  font-weight: 900;
+  font-size: 18px; }
+
+h4 {
+  font-weight: 900;
+  font-size: 16px; }
+
+p {
+  font-size: 16px; }
+
+span, label {
+  font-size: 14px; }
+
+label {
+  font-size: 1.4rem;
+  font-weight: 900; }
+
+pre {
+  margin: 0; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.TopHeader {
+  width: 100vw;
+  min-height: 90px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.MainContent {
+  padding: 0 10px 20px;
+  min-height: calc(100vh - 90px);
+  width: 900px;
+  max-width: 100%;
+  flex: 1 1 500px; }
+
+.ContentWrapper {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; }

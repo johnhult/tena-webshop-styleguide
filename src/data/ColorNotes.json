@@ -1,0 +1,10 @@
+{
+    "#26588B": "The $blue color is the main color we use in Tena Webshop. This color is used for subconsciously conveying an item that can be interacted with, e.g. Links, Buttons and clickable sections.",
+    "#E3F0F7": "The $lightBlue color is what we use in order to get some sections or headers highlighted. We do not display the actual headers in this colors, but rather add this color as a background to seperate some sections more clearly. No hues or variations of this color should be used since making it 10% more lighter will turn it completely white.",
+    "#3CB550": "The $green color is a color that is used when either confirming a choice or adding an item. We use this sparingly as we want the green color to really stand out and convey a clear message of confirmation, moving forward or adding an item to our cart/basket.",
+    "#EF3D3D": "The $red color is what we use for cancellation actions. Closing popups, dismissing actions, removing items or cancel changes should all be using this color. All dissmissive actions should use this color.",
+    "#373737": "The $black is our standard black instead of a pitch black. This is to ease up a bit on the contrasts against the white background. Never use black, #000, #000000, rgb(0,0,0) or rgba(0,0,0,1).",
+    "#AAAAAA": "The $grey color is what we use for notes, header and meta label that does not require to take focus. Use this for subheaders or other elements that shouldn't take to much visual space.",
+    "#E0E0E0": "The $lightGrey is used mostly for lines we use to seperate sections. Can in specific places be used for background but should not be common.",
+    "#FFFFFF": "Common white. We still include this as $white since we want to keep our SASS variables in order and have them all gathered."
+}

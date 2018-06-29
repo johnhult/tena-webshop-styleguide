@@ -1,0 +1,18 @@
+@import 'style-extra/variables.scss';
+
+.TypographyContent {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+}
+
+.TypographyExamples {
+    margin-bottom: $bigMargin;
+}
+
+.CodeSection {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: $bigMargin;
+    border-bottom: 1px solid $lightGrey;
+}

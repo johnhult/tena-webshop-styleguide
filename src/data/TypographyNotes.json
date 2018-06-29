@@ -1,0 +1,8 @@
+{
+    "h1": "The Main Header is a header that should only be use at maximum one time per each page. It should be used to give a clear idea over where the customer currently is. It might not be needed on each page.",
+    "h2": "The Subpage Header is used for displaying subcategories on different pages. For example, this might be used instead of Main Header in Login and Create Account page. It is also used to display item names in product flows, product pages and other occurances of item names. Do not use for item names in cramped spaces such as in basket. Instead go for meta content/label.",
+    "h3": "The Section Header is used for areas where we want a header for a specific area, such as a popup that is seperated from other content.",
+    "h4": "Content Header is a header for body content. Paragraphs of text should be seperated by these. In other words, this means that whenever there is a body text with different paragraphs, we use these labels for header for each paragraph.",
+    "u-meta": "Meta content such as labels and button text. The button labels should always be uppercase. Do not mix this up with the <strong> which is the one we use in case we want to put emphasis on a word in running text. the .u-meta tag is made for labels and button and is thus set to 14px font-size. This means that using this in a body text will make a word smaller since our body text is 16px. Therefore, we always use <strong> in \"normal\" text.",
+    "p": "Normal text. Longer paragraphs. Info for different sections. This is the standard text we use for body text."
+}

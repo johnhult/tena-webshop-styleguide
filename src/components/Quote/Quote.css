@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.Quote {
+  color: #373737;
+  padding: 40px 20px;
+  border-radius: 10px;
+  position: relative; }
+
+.Quote::before {
+  content: "“";
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  font-size: 60px;
+  line-height: 1;
+  color: #E3F0F7; }
+
+.Quote::after {
+  content: "”";
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 60px;
+  line-height: 0;
+  color: #E3F0F7; }
